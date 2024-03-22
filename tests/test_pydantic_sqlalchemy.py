@@ -18,7 +18,7 @@ def utc_now() -> datetime:
 
 class User(Base):
     __tablename__ = "users"
-
+    #git commit 1
     id = Column(Integer, primary_key=True)
     name = Column(String)
     fullname = Column(String)
