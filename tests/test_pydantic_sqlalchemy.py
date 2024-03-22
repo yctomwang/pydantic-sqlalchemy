@@ -21,6 +21,7 @@ class User(Base):
     #git commit 1
     #git commit 1 on new
     #git commit 2 on new
+    #git commit 2 on master
     id = Column(Integer, primary_key=True)
     name = Column(String)
     fullname = Column(String)
