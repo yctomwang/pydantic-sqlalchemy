@@ -20,6 +20,7 @@ class User(Base):
     __tablename__ = "users"
     #git commit 1
     #git commit 1 on new
+    #git commit 2 on new
     id = Column(Integer, primary_key=True)
     name = Column(String)
     fullname = Column(String)
